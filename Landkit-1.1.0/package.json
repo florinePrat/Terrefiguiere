@@ -6,7 +6,7 @@
   "main": "gulpfile.js",
   "author": "Good Themes",
   "scripts": {
-    "deploy": "gh-pages -d Landkit-1.1.O -d src"
+    "deploy": "gh-pages -d src"
   },
   "devDependencies": {
     "browser-sync": "2.26.7",
