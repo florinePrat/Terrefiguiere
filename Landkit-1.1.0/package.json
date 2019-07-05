@@ -6,7 +6,7 @@
   "main": "gulpfile.js",
   "author": "Good Themes",
   "scripts": {
-    "deploy": "gh-pages -d src/index.html"
+    "deploy": "gh-pages -d src -d index.html"
   },
   "devDependencies": {
     "browser-sync": "2.26.7",
