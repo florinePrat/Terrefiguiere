@@ -20,6 +20,9 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="./Landkit-1.1.0/src/assets/css/theme.min.css">
 
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" />
+
     <title>Terre Figuière</title>
   </head>
   <body>
@@ -28,7 +31,7 @@
   
     <!-- NAVBAR
     ================================================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
       <div class="container">
 
         <!-- Brand -->
@@ -280,9 +283,6 @@
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
-
-    <!-- BRANDS
-    ================================================== -->
     
 
     <!-- ABOUT
@@ -290,7 +290,7 @@
     <section class="pt-8 pt-md-11 bg-gradient-light">
       <div class="container">
         <div class="row align-items-center justify-content-between mb-8 mb-md-11">
-          <div class="col-12 col-md-6 order-md-2" data-aos="fade-left">
+          <div class="col-sm" data-aos="fade-left">
             
             <!-- Heading -->
             <h2>
@@ -444,7 +444,7 @@
               <div class="img-skewed img-skewed-left">
 
                  <!-- Image -->
-                <img src="./Landkit-1.1.0/src/assets/img/vases/vase2.png" class="screenshot img-fluid img-skewed-item" alt="...">
+                <img src="./Landkit-1.1.0/src/assets/img/vases/cbordeaux.jpg" class="screenshot img-fluid img-skewed-item" alt="...">
                 
                 
               </div>
@@ -507,7 +507,7 @@
                   </div>
 
                 </div>
-                <div class="col-12 col-md-6 position-static">
+                <div class="col-sm">
 
                   <!-- Slider -->
                   <div class="position-static" data-flickity='{"wrapAround": true, "pageDots": false, "imagesLoaded": true, "adaptiveHeight": true}' id="blogSlider">
@@ -639,9 +639,11 @@
     
    
       <br>
-      <h2>
-          Venez nous voir directement sur place
-      </h2>
+      <div class="col-12 col-md-10 col-lg-8 text-center">   
+        <h2>
+            Venez nous voir directement sur place
+        </h2>
+      </div>
             
         <a href="https://www.google.fr/maps/place/Terre+Figui%C3%A8re/@44.0244595,4.0251728,17z/data=!3m1!4b1!4m5!3m4!1s0x12b414d53fe5b837:0x1d0053025a5f7ec1!8m2!3d44.0244595!4d4.0273615"> <img id="plan" src="Landkit-1.1.0/src/assets/img/covers/plan.jpg"> </a>      
 
@@ -660,7 +662,7 @@
     <footer class="py-8 py-md-11 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-4 col-lg-3">
+          <div class="col col-lg-2">
         
             <!-- Brand -->
             <img src="./Landkit-1.1.0/src/assets/img/logo.svg" alt="..." class="footer-brand img-fluid mb-2">
@@ -682,7 +684,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-md-4 col-lg-2">
+          <div class="col-sm">
         
             <!-- Heading -->
             <h6 class="font-weight-bold text-uppercase text-gray-700">
@@ -696,12 +698,12 @@
                   Notre catalogue
                 </a>
               </li>
-              <li>
+              <li class="mb-3">
                 <a href="https://www.terrefiguiere.com/ressources/fichiers/113c339a2116.pdf" class="text-reset">
                   Notre catalogue en pdf
                 </a>
               </li>
-              <li>
+              <li class="mb-3">
                 <a href="Landkit-1.1.0/src/conseil.html" class="text-reset">
                   Conseil d'utilisation
                 </a>
@@ -709,7 +711,7 @@
             </ul>
 
           </div>
-          <div class="col-6 col-md-4 col-lg-2">
+          <div class="col-sm">
         
             <!-- Heading -->
             <h6 class="font-weight-bold text-uppercase text-gray-700">
@@ -732,33 +734,9 @@
             </ul>
 
           </div>
-          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
-        
-            
-        
-            <!-- Heading -->
-            <h6 class="font-weight-bold text-uppercase text-gray-700">
-              Legal
-            </h6>
+          
 
-            <!-- List -->
-            <ul class="list-unstyled text-muted mb-0">
-              <li class="mb-3">
-                <a href="Landkit-1.1.0/src/mentionslegales.html" class="text-reset">
-                  Mentions légales
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Plan du site
-                </a>
-              </li>
-              
-            </ul>
-
-          </div>
-
-          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+          <div class="col-sm">
         
             
         
@@ -777,17 +755,47 @@
                   Page de contact
                 </a>
               </li>
-                 TERRE FIGUIERE FRANCE <br>
-Siège social : Za N 3 Route Lezan, 30140 MASSILLARGUES ATTUECH. <br>
-N° de téléphone : <br>09 70 35 89 29 <br>
-N° de Fax :<br> 04 66 60 71 46
+              <li class="mb-3">
+                 Terre Figuiere France <br>
+Siège social : Za N 3 Route Lezan, 30140 Massillargues attuech. <br>
+              </li>
+              <li class="mb-3">
+                N° de téléphone : <br>
+                <a href="tel:+33466607412" class="h4">
+                  04 66 60 74 12
+                </a> 
+              </li>
+              <li class="mb-3">
+                N° de Fax :<br> 
+                <a href="fax:+33466607146">
+                  04 66 60 71 46
                 </a>
+
               </li>
               
             </ul>
 
           </div>
         </div> <!-- / .row -->
+        
+          <br>
+          <br>
+        <p>
+          <FONT size="2pt" color="grey">
+            ©2019-2030 - Poterie Terre figuiere - Tous droits de reproduction réservés - 
+           <i><U> <a href="Landkit-1.1.0/src/mentionslegales.html" class="text-reset">
+              Mentions légales  
+            </a>
+          </i></U>
+           |
+          <i><U>
+            <a href="#!" class="text-reset">
+              Plan du site
+            </a>
+          </i></U>
+            </FONT>
+        </p>
+      
       </div> <!-- / .container -->
     </footer>
             
